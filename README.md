@@ -11,7 +11,7 @@ In this app we are using [Mocha](https://mochajs.org/) as out Test Runner and [C
 
 #### [Webpack](https://webpack.js.org/) - Code Bundling
 
-When you have loads of files that compose your application it's preferred to keep them modular. [__Webpack__](https://webpack.js.org/) helps us by gathering all of our modules(js files) and bundling them into a concise script. 
+When you have loads of files that compose your application it's preferred to keep them modular. [__Webpack__](https://webpack.js.org/) helps us by gathering all of our modules(js files) and bundling them into a concise script.
 
 > There's a lot more to Webpack but for the sake of this exercise just know it's gathering our code and creating the __main.js__ file we reference in our HTML document.
 
@@ -19,10 +19,10 @@ When you have loads of files that compose your application it's preferred to kee
 - `$> npm install`
 
 ### Build Code
-- `$> npm run dev`
+- `$> npm run build`
 
 ### Build Code Continuously
-- `$> npm run watch:dev`
+- `$> npm run watch:build`
 
 ### Run The Test
 - `$> npm run test`
